@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T06:27:13.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="kkXk-4Uua4s6Fk8exdE6" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T06:28:49.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tilMWYhXJ7H2bWsMJJOj" version="20.2.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1892" dy="1178" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1064" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,26 +208,26 @@
         <mxCell id="78961159f06e98e8-68" value="convenience init(data: TBWeekDataViewModel, selectedWeek: Int, type: TBRecommendContentViewModelType, rootVC: UIViewController?)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="644" width="374" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pp_mQ892j0vPYLdk7xoe-32" value="func loadRecommendData(limit: Int? = nil)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
+        <mxCell id="su3BbWHt3NprtEjBZGF3-475" value="func loadAdsIfNeeded()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
           <mxGeometry y="704" width="374" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-470" value="func removeData()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
+        <mxCell id="Pp_mQ892j0vPYLdk7xoe-32" value="func loadRecommendData(limit: Int? = nil)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="737" width="374" height="33" as="geometry" />
         </mxCell>
+        <mxCell id="su3BbWHt3NprtEjBZGF3-470" value="func removeData()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
+          <mxGeometry y="770" width="374" height="33" as="geometry" />
+        </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-472" value="func updateWeekData(weekData: TBWeekDataViewModel?, selectedWeek: Int)" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
-          <mxGeometry y="770" width="374" height="44" as="geometry" />
+          <mxGeometry y="803" width="374" height="44" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-473" value="func loadSponsorData()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
-          <mxGeometry y="814" width="374" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-474" value="func loadTopicData()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
           <mxGeometry y="847" width="374" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="Pp_mQ892j0vPYLdk7xoe-34" value="func insertAds(_ oldCards: [TBRecommendModelType&amp;lt;Model&amp;gt;]) -&amp;gt; [TBRecommendModelType&amp;lt;Model&amp;gt;]" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
-          <mxGeometry y="880" width="374" height="44" as="geometry" />
+        <mxCell id="su3BbWHt3NprtEjBZGF3-474" value="func loadTopicData()" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
+          <mxGeometry y="880" width="374" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-475" value="func loadAdsIfNeeded()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
-          <mxGeometry y="924" width="374" height="33" as="geometry" />
+        <mxCell id="Pp_mQ892j0vPYLdk7xoe-34" value="func insertAds(_ oldCards: [TBRecommendModelType&amp;lt;Model&amp;gt;]) -&amp;gt; [TBRecommendModelType&amp;lt;Model&amp;gt;]" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
+          <mxGeometry y="913" width="374" height="44" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78961159f06e98e8-69" target="Pp_mQ892j0vPYLdk7xoe-18">
           <mxGeometry relative="1" as="geometry" />
