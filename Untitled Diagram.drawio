@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T04:36:00.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ck6Vn6q0wBuC49vr9UM_" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T06:27:13.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="kkXk-4Uua4s6Fk8exdE6" version="20.2.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1892" dy="1064" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1178" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="78961159f06e98e8-56" value="TBRecommendViewModel" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="660" y="436.5" width="374" height="1001" as="geometry" />
+          <mxGeometry x="660" y="436.5" width="374" height="960.5" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-61" value="+&amp;nbsp;recommendDataList: [TBRecommendModelType&amp;lt;Model&amp;gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="26" width="374" height="26" as="geometry" />
@@ -229,9 +229,6 @@
         <mxCell id="su3BbWHt3NprtEjBZGF3-475" value="func loadAdsIfNeeded()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
           <mxGeometry y="924" width="374" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-476" value="func loadAdView(model: TBRecommendModelType&amp;lt;Model&amp;gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-56">
-          <mxGeometry y="957" width="374" height="33" as="geometry" />
-        </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78961159f06e98e8-69" target="Pp_mQ892j0vPYLdk7xoe-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -302,16 +299,16 @@
           <mxGeometry y="60" width="319" height="26" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-497" value="public" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1496" width="77" height="50" as="geometry" />
+          <mxGeometry x="660" y="1452" width="77" height="50" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-498" value="private" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="737" y="1496" width="77" height="50" as="geometry" />
+          <mxGeometry x="737" y="1452" width="77" height="50" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-499" value="article/slideshow" style="html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="814" y="1496" width="110" height="50" as="geometry" />
+          <mxGeometry x="814" y="1452" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-500" value="HBIB/HBIC" style="html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="924" y="1496" width="110" height="50" as="geometry" />
+          <mxGeometry x="924" y="1452" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
