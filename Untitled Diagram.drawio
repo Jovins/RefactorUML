@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T02:06:04.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="xcUHgtlllLTRx-H9G43U" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T10:49:16.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Ewn2hw14DvR0niyQAs_U" version="20.2.5" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
         <mxCell id="su3BbWHt3NprtEjBZGF3-450" value="+&amp;nbsp;tracked: Set&amp;lt;IndexPath&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="104" width="374" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-451" value="+&amp;nbsp;loadBannerAdsCells: [IndexPath: UICollectionViewCell]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
+        <mxCell id="su3BbWHt3NprtEjBZGF3-451" value="+ recommendContentCells: [IndexPath: UICollectionViewCell]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="130" width="374" height="26" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-453" value="+&amp;nbsp;loaded: Set&amp;lt;IndexPath&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
@@ -183,7 +183,7 @@
         <mxCell id="su3BbWHt3NprtEjBZGF3-461" value="+&amp;nbsp;adSid: String" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="390" width="374" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-460" value="+ model: TBRecommendContentModel" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
+        <mxCell id="su3BbWHt3NprtEjBZGF3-460" value="+ recommendContentModel: TBRecommendContentModel" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="416" width="374" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-64" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
@@ -195,7 +195,7 @@
         <mxCell id="Pp_mQ892j0vPYLdk7xoe-32" value="func loadRecommendData(limit: Int? = nil)" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="484" width="374" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="su3BbWHt3NprtEjBZGF3-470" value="func removeData()" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
+        <mxCell id="su3BbWHt3NprtEjBZGF3-470" value="func resetEventAndAdsData()" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
           <mxGeometry y="517" width="374" height="33" as="geometry" />
         </mxCell>
         <mxCell id="su3BbWHt3NprtEjBZGF3-472" value="func updateWeekData(weekData: TBWeekDataViewModel?, selectedWeek: Int)" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-56" vertex="1">
