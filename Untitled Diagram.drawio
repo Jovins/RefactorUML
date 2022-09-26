@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T09:42:01.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tiTL9Jpsao4ryMG8yCre" version="20.3.6" type="github"><diagram id="FDr8g_7TmeWDJbLXRSmU" name="Page-1">ddHBDoMgDADQr+GOMhc9OzcvO3nYmUgnJGgNsuj29dOAc8TtQsproaQQlrfTxfBeXlGAJjEVE2EnEsfZ4TivCzwdJGnmoDFKOIo2qNQLPFKvDyVgCAotoraqD7HGroPaBsaNwTEsu6MOu/a8gR1UNdd7vSlhpdM0oZuXoBq5do6oz7R8LfYwSC5w/CJWEJYbROuidspBL7Nb5+LOnf9kPw8z0NkfB+Zgu3veBB/Eijc=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-26T10:31:24.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3lTFMvUsQqhoW9y8zeR_" version="20.3.6" type="github">
+  <diagram id="FDr8g_7TmeWDJbLXRSmU" name="Page-1">
+    <mxGraphModel dx="1351" dy="841" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="Dw6xoMdAvUMok9ZEsRMh-1" target="Dw6xoMdAvUMok9ZEsRMh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -&amp;gt; Void) -&amp;gt; Bool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="110" width="470" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.434;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dw6xoMdAvUMok9ZEsRMh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1478.2199999999998" y="483.7249999999999" as="targetPoint" />
+            <mxPoint x="1174.080423280423" y="386.57142857142867" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="Dw6xoMdAvUMok9ZEsRMh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539.0000000000002" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-2" value="用userActivity是否可以&lt;br&gt;通过Branch判断去handle deeplink" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="834.75" y="319" width="320.5" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="Dw6xoMdAvUMok9ZEsRMh-6" target="Dw6xoMdAvUMok9ZEsRMh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-6" value="func&amp;nbsp;setupAppRootViewController() { }&lt;br&gt;func&amp;nbsp;setupAfterFinishLaunching() { }&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="484" width="330" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-8" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;YES&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="346" width="66" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="Dw6xoMdAvUMok9ZEsRMh-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1716.0000000000005" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-9" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;func setupBranch(launchOptions: [UIApplication.LaunchOptionsKey: Any]?)&lt;br&gt;获取到对应的url&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="605" width="330" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-11" value="记录通过Branch打开的deeplink&lt;br&gt;&amp;nbsp;UserDefaults.standard.set(true, forKey: kOpenedThroughBranch)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="595.5" width="363" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-13" value="判断userActivity是否是NSUserActivityTypeBrowsingWeb、isFromAssociatedDomain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="352" y="478" width="363" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Dw6xoMdAvUMok9ZEsRMh-15" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="616" y="346" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
